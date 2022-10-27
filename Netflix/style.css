@@ -1,0 +1,330 @@
+.hero-image {
+    background-image: linear-gradient(to bottom,
+                rgba(17, 13, 12, 1),
+                rgba(15, 12, 11, 0.25), rgba(17, 13, 12, 1)),url("photos_and_videos/background_image.jpg");
+    background-color: #cccccc;
+    height: 717.2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .background-profil-yonetim{
+background-color: rgb(56, 51, 51);
+height: 717.2px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+  .hero-image-oturum-ac{
+    background-image: linear-gradient(to bottom,
+                rgba(17, 13, 12, 1),
+                rgba(15, 12, 11, 0.25), rgba(17, 13, 12, 1)),url("photos_and_videos/NetflixGorseller/arkaplan.jpg");
+    background-color: #cccccc;
+    height: 717.2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .borders{
+    border-bottom: 8px solid rgb(50, 49, 49);
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text-oturum-ac{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 35px;
+    width: 380px;
+  }
+  .hero-text-profil-yonetimi{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 800px;
+  }
+  body{
+      background-color: black;
+  }
+  .menu{
+      margin: 0 45px;
+  }
+  .menu-logo{
+  float: left;
+  }
+  .menu-right{
+  float: right;
+  }
+  .h1{
+      font-size: 4rem;
+  }
+  .h2{
+      font-size: 3rem;
+  }
+  .h3{
+      font-size: 2rem;
+  }
+  .h4{
+      font-size: 1.8rem;
+  }
+  .p{
+      font-size: 1.5rem;
+  }
+  .p1{
+      font-size: 1.3rem;
+      color: white;
+  }
+  .bi-arrow-down-circle{
+      margin-left: 5px;
+  }
+  .bi-globe{
+      margin-right: 5px;
+      font-size: 13px;
+  }
+  .new_btn{
+      background-color: red;
+      color: white;
+  }
+  .new_btn:hover{
+      color: red;
+      background-color: white;
+  }
+  .e_posta{
+      display: flex;
+  }
+  li{ 
+      list-style-type: none;
+      float: left;
+      }
+      .width70{
+          width: 70%;
+      }
+      .width30{
+          width: 30%;
+      }
+  .tv_text_bar{
+      color: white;
+  }
+  .tv_img{
+      width: 530px;
+      height: 398px;
+  }
+      .pt-8{
+          padding-top: 5rem;
+      }
+      .pt-10{
+          padding-top: 7rem;
+      }
+      .relative{
+  position: relative;
+      }
+      .absolute{
+  position: absolute;
+  top: 21%;
+  right: 3%;
+      }
+      .tv_mp4{
+          width: 380px;
+      }
+      .mobil_img{
+          width: 500px;
+      }
+      .ios_img{
+          
+      }
+      .child_img{
+      width: 400px;
+      }
+      
+  .accordion {
+    background-color: rgb(66, 63, 63);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 65%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: xx-large;
+    transition: 0.4s;
+  }
+  /* 
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(66, 63, 63);
+    color: white;
+    overflow: hidden;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+  }
+  .bi-plus-lg{
+      float: right;
+      font-size: xx-large;
+  }
+  .cardssss{
+      margin-bottom: 15px;
+  }
+  .mt-low-px{
+      margin-top: 2px;
+  }
+  .xx-large-font{
+      font-size: x-large;
+  }
+  .last-card-posta-width{
+  width: 70%;
+  }
+  .last-card-button-width{
+  width: 30%;
+  }
+  .last-card{
+      display: inline-block;
+      text-align: center;
+      width: 800px;
+  }
+  .last-card ul{
+      display: inline-block;
+  }
+  .margin-left{
+  margin-left: 25px;
+  }
+  .pb-10{
+      padding-bottom: 5rem;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  .btn:hover{
+      color: red;
+      background-color: white;
+  }
+  .alt-cizgi{
+      background-color: red;
+  }
+  .alt-cizgi:hover{
+      color: red;
+      background-color: white;
+  }
+  .input-margin{
+    margin-bottom: 15px;
+  }
+  .input-margin:first-child{
+    margin-bottom: 45px;
+  }
+
+  .button-oturum-ac{
+    width: 100%;
+  }
+  .remember-me{
+    float: left;
+  }
+  .oturum-ac-text{
+    font-size: 0.9rem;
+  }
+  .user-profile img{
+    width: 100px;
+  }
+  .profil-yonetimi-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-profil-yonetim{
+    width:50%;
+    padding: 5px;
+    background-color: rgb(56, 51, 51);
+    color: #cccccc;
+    border-radius: 0;
+    font-size: 0.7rem;
+  }
+  .btn-profil-yonetim:hover{
+    background-color: white;
+    color: rgb(56, 51, 51);
+  }
+  .menu-list{
+    color: white;
+    display: inline-block;
+  }
+  .hesap_yonetim_li{
+    padding: 10px;
+  }
+  .hesap_yonetim_li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  }
+  .image-hesap-yonetim{
+    width: 60px;
+  }
+  .clearfix{
+    clear: both;
+  }
+  .hesap-detay{
+    background-color: rgb(215, 206, 190);
+  }
+  .uyelik-iptal-btn{
+    width: 150px;
+    padding: 2px;
+    border-radius: 2px;
+    border: 2px solid black;
+    background-color: #cccccc;
+  }
+  .uyelik-iptal-btn:hover{
+    background-color: rgb(44, 36, 36);
+    color: #cccccc;
+    cursor: pointer;
+  }
+  .uyelik-iptal-border{
+    padding-bottom: 25px;
+    padding-top: 15px;
+    border-bottom: 1px solid grey;
+  }
+  .uyelik-iptal-border:nth-child(3){
+    padding-bottom: 5px;
+  }
+  .width100{
+    width: 100%;
+  }
+  .text-color-blue{
+    color: rgb(46, 116, 182);
+  }
+  .text-color-blue:hover{
+    color: white;
+  }
+  .text-member-info{
+    display: inline-block;
+    width: 70%;
+  }
+  .member-button{
+  background-color: black;
+  }
+  .member-button::after {
+    color: white;
+}
+.menu-right-member{
+  float: right;
+  padding-right: 50px;
+  margin-top: 5px;
+}
